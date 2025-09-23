@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Navigation bar -->
     <nav id="stockNavBar">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="wow.html">wow</a>
     </nav>
-    <div>
-        <canvas></canvas>
+
+    <!-- Main div -->
+    <div id="main">
+        <div></div>
+        <div>
+            <div>
+                <h1>Entropy</h1>
+            </div>
+            <canvas></canvas>
+            <div class="button-container">
+                <button onclick="start()">start</button>
+                <button onclick="stop()">stop</button>
+                <button onclick="clean()">clean</button>
+            </div>
+            <div>
+                <p>In my free time, I like making entropy. Let's make some entropy!</p>
+            </div>
+        </div>
+        <div></div>
     </div>
-    <footer>
+
+    <footer id="footer">
         <p>Copyright &copy; 2025 Pauline</p>
     </footer>
 </body>
