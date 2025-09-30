@@ -1,0 +1,23 @@
+html {
+    font-family:  sans-serif;
+}
+
+#stockNavBar {
+    background-color: black;
+}
+
+#footer {
+    background-color: black;
+}
+
+.toggleButton {
+    background-color: brown;
+}
+
+.middleDiv {
+    background-color: white;
+}
+
+.rightDiv, .leftDiv {
+    background-color: yellow;
+}
