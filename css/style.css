@@ -2,22 +2,60 @@ html {
     font-family:  sans-serif;
 }
 
+/* Make the navbar stick on top */
 #stockNavBar {
     background-color: black;
+    position: sticky;
+    top: 0%;
 }
 
+/* NOTE() Color letters and add spacing. */
+#stockNavBar a {
+    color: white;
+    padding: 1rem;
+}
+
+/* Color the letters and background */
 #footer {
     background-color: black;
+    color: white;
 }
 
-.toggleButton {
-    background-color: brown;
+/* Convert main into a flexible box */
+/* NOTE each of the three inner should occupy 1 equivalent row */
+/* wrap/stack containers in zoom  */
+#main {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.leftDiv, .rightDiv {
+    background-color: yellow;
+    flex: 2;
+    flex-shrink: 1;
+    padding: 10px;
+    min-width: 50px;
 }
 
 .middleDiv {
     background-color: white;
+    flex: 1;
+    padding: 10px;
 }
 
-.rightDiv, .leftDiv {
-    background-color: yellow;
+.middleDiv img {
+    max-width: 300px;
+}
+
+/* Make the toggle stick on 10% of the top */
+.toggleButton {
+    background-color: brown;
+    position: sticky;
+    top: 10%;
+    min-width: 20px;
+    min-height: 20px;
 }
