@@ -1,12 +1,15 @@
 html {
-    font-family:  sans-serif;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #F7F7F7;
 }
 
 /* Make the navbar stick on top */
 #stockNavBar {
-    background-color: rgb(53, 52, 52);
+    background-color: #000000;
     position: sticky;
     top: 0%;
+    border-radius: 5px; /* Make border less aggressive */
 }
 
 /* NOTE() Color letters and add spacing. */
@@ -17,15 +20,16 @@ html {
 
 /* Color the letters and background */
 #footer {
-    background-color: rgb(53, 52, 52);
+    background-color: #000000;
     color: white;
+    border-radius: 5px; /* Make border less aggressive */
 }
 
 /* Convert main into a flexible box */
 /* NOTE each of the three inner should occupy 1 equivalent row */
 /* wrap/stack containers in zoom  */
 #main {
-    background-color: rgb(236, 222, 196);
+    background-color: #4F200D;
     display: flex;
     flex-direction: row;
     /* flex-direction: column; */
@@ -34,7 +38,7 @@ html {
 }
 
 .leftDiv, .rightDiv {
-    background-color: rgb(210, 210, 113);
+    background-color: #854836;
     flex: 2;
     flex-shrink: 1;
     padding: 10px;
@@ -42,20 +46,25 @@ html {
 }
 
 .middleDiv {
-    background-color: white;
+    background-color: #FFB22C;
     flex: 1;
     padding: 10px;
+    /* border: 5px solid #F7F7F7; */
 }
 
 .middleDiv img {
     max-width: 300px;
+    border-radius: 5px; /* Make border less aggressive */
 }
 
-/* Make the toggle stick on 10% of the top */
-.toggleButton {
-    background-color: brown;
-    position: sticky;
-    top: 10%;
-    min-width: 20px;
-    min-height: 20px;
+.middleDiv canvas {
+    border-radius: 5px; /* Make border less aggressive */
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.middleDiv p {
+    border-radius: 5px; /* Make border less aggressive */
+    background-color: #F7F7F7;
 }

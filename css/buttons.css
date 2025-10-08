@@ -1,0 +1,60 @@
+/* Make the toggle stick on 10% of the top */
+.toggleButton {
+    background-color: brown;
+    position: sticky;
+    top: 10%;
+    min-width: 20px;
+    min-height: 20px;
+    transform: scale(1);
+    border-radius: 90%;
+}
+
+.toggleButton:focus {
+    background-color: brown;
+    position: sticky;
+    top: 10%;
+    min-width: 20px;
+    min-height: 20px;
+    transform: scale(2);
+    border-radius: 90%;
+}
+
+#startButton {
+  color: white;
+  background-color: green;
+  transform: scale(1);
+}
+
+#startButton:focus {
+  color: white;
+  background-color: green;
+  transform: scale(2);
+}
+
+#stopButton {
+  color: white;
+  background-color: orange;
+  border-radius: 75%;
+  transform: scale(1);
+}
+
+#stopButton:focus {
+  color: white;
+  background-color: orange;
+  border-radius: 75%;
+  transform: scale(2);
+}
+
+#cleanButton {
+  color: white;
+  background-color: red;
+  border-radius: 25%;
+  transform: scale(1);
+}
+
+#cleanButton:focus {
+  color: white;
+  background-color: red;
+  border-radius: 25%;
+  transform: scale(2);
+}

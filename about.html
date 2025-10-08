@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/tables.css">
 </head>
 <body>
     <!-- Navigation bar -->
@@ -25,29 +27,38 @@
             </header>
             <article> 
                 <img src="./data/Head.png" alt="Sideway Head Shot Photography of Pauline">
-                
                 <section>
                     <h2>Facts and Stats</h2>
-                    
-                    <dl>
-                        <dt>Age</dt>
-                        <dd>6</dd>
-                        
-                        <dt>Favorite Color</dt>
-                        <dd>Black</dd>
-                        
-                        <dt>Favorite Food</dt>
-                        <dd>Chicken</dd>
-
-                        <dt>Height</dt>
-                        <dd>Small</dd>
-                    </dl>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Age</th>
+                                <td>I am 6 years old.</td>
+                            </tr>
+                            <tr>
+                                <th>Favorite Color</th>
+                                <td>My Favorite color is black.</td>
+                            </tr>
+                            <tr>
+                                <th>Favorite Food</th>
+                                <td>I like chicken.</td>
+                            </tr>
+                            <tr>
+                                <th>Heigh</th>
+                                <td>I am tiny!</td>
+                            </tr>
+                            <tr>
+                                <th>Skills</th>
+                                <td>I am a proficient barker</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </section>
             </article>
         </div>
         <aside class="rightDiv">
             <!-- Change background color -->
-            <button class="toggleButton" onclick="toggleButton()"></button>
+            <button class="toggleButton" onclick="toggleButton()">toggle</button>
         </aside>
     </main> <!-- Main div-->
 
