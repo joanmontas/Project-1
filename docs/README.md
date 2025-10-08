@@ -22,6 +22,10 @@
     wow.html's canvas or replace it and then modify the "/js/canvas.js" file.
 
 # How to host using GH
+    Go to the project's repository and click Settings.
+    Under Pages-> Branch select the drop down and select the GitHub Page branch, like main
+    (or branch specifically for GitHub Page) and press save.
+    If no custom url is written, you will receive https://<username>.github.io/<project-name>/ as link.
 
 # How to run locally
     The local deployment should be easy.
