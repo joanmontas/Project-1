@@ -1,6 +1,6 @@
 /* Make the toggle stick on 10% of the top */
 .toggleButton {
-    background-color: brown;
+    background-color: #F7F7F7;
     position: sticky;
     top: 10%;
     min-width: 20px;
@@ -10,7 +10,7 @@
 }
 
 .toggleButton:focus {
-    background-color: brown;
+    background-color: #F7F7F7;
     position: sticky;
     top: 10%;
     min-width: 20px;
